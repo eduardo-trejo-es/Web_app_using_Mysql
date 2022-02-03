@@ -1,11 +1,15 @@
-{% extends "base.html" %} {% block title %}Home{% endblock %} 
+{% extends "base.html" %} 
+
+{% block title %}Saving emails{% endblock %} 
+
 {% block content %}
   <h1 align="center">Home page</h1>
   <h3>Show an email field (allows only one email address):</h3>
-  <form action="/home.html">
+
+  <form action="#" method="post">
     <label for="email">Enter your email:</label>
     <input type="email" id="email" name="email">
-    <input type="submit">
+    <input type="submit" value="submit">
   </form>
   
   
